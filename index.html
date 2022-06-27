@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>This is an incredible story about incredible things</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="section">
+            <div class="container content">
+                <h1 class="title">NBA rookies and their winning contributions</h1>
+                <p>by Stanley Dai</p>
+                <p>
+                    Every year, hundreds of basketball players with hoop dreams enter into wacky spectacles known as 
+                    the NBA draft and free agency, where teams select players based on their own needs and evaluation of these players’ talent. 
+                </p>
+                <p>
+                    As a fan of one of the more woe-begotten franchises, the New Orleans Pelicans, I was pleasantly 
+                    surprised to see three rookies make meaningful contributions to team success. 
+                    Uniquely, all three rookies were former college upperclassmen, lauded for their maturity and poise. 
+                </p>
+                <p>
+                    There are many approaches to incorporating new talent, with various and often conflicting 
+                    theories bandied about by NBA pundits and internet forums. One such adage is that 
+                    older players are often more ready to make an immediate impact. 
+                </p>
+                <h3>Data and Analysis</h3>
+                <p>To explore this proposition, I use data on rookies and teams from basketball-reference.com from 2014-2021. 
+                    I select this time period mostly out of convenience - certain teams had different names prior 
+                    to 2014. 
+                </p>
+                <p>For my purposes, contribution is measured as having played in at least 35% 
+                    of all games, the statistical minimum for rookies to qualify for historic recognition by the NBA. 
+                    Winning teams are defined as teams who win more than half of their games. 
+                </p>
+                <div class="plot-holder">
+                    <iframe title="How many NBA rookies contribute?" aria-label="Stacked Column Chart" id="datawrapper-chart-hOU1m" src="https://datawrapper.dwcdn.net/hOU1m/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="381"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                    </script>
+                </div>
+                <p>
+                    The chart above describes the number of rookies who contributed to their respective 
+                    teams over the last eight years. 85 percent of contributing rookies are younger 
+                    than 23 years old, many of whom were drafted out of college.
+                </p>
+                <p>For nearly all ages, more rookies play for losing teams than winning teams, which makes some 
+                    sense - teams out of the championship race are incentivized to bring in more new talent and give players 
+                    more chances to develop.
+                </p>
+                <p>
+                    Furthermore, it appears that contributing rookies under 21 are less 
+                    likely than their older counterparts to be on winning teams. 
+                </p>
+                <p>Let’s explore another dimension of the same question - what is the magnitude of 
+                    the contribution of rookies on winning teams? As a proxy for level of contribution, 
+                    I use minutes played per-game. 
+                </p>
+                <div class="plot2-holder">
+                    <p>
+                        <iframe title="MPG of rookies contributing on winning teams" aria-label="Dot Plot" id="datawrapper-chart-9qwGL" src="https://datawrapper.dwcdn.net/9qwGL/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="359"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                        </script>                    </p>
+                </div>
+                <p></p>
+                
+                <p>
+                    While older rookies are more likely to be contributors on winning teams, on those same winning teams the median 
+                    minutes-per-game generally decreases with age! My best, most irresponsible guess as to what might 
+                    be going on here is that younger players must exhibit extraordinary talent in order catch the eye of good teams.
+                    In other words, if you are a contending team taking a chance on a 19 year old, he better be pretty damn good. 
+                </p>
+                <p>
+                    As team-building strategy is predicated on a near infinite amount of confounding factors,
+                     analysis provided can only be descriptive in nature. Future analysis could explore a longer time frame or incorporate players' draft position. 
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
